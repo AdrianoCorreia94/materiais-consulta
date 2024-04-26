@@ -16,3 +16,6 @@ print(formatado_3)  # apresentando hora e minuto
 
 formatado_4 = agora.strftime('%d/%m %H:%M')  # formatando dia/mes hora:minuto
 print(formatado_4)
+
+padrao_br = agora.strftime('%d-%m-%Y')  # mudando exibicao padrao br
+print(padrao_br)
